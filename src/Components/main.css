@@ -1,0 +1,191 @@
+
+.button {
+  align-items: center;
+  background-color: #2AB71A;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  text-decoration: none;
+  transition: all 250ms;
+  width: auto;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #2AB71A;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+}
+
+.button:active {
+  background-color: #119506;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+
+/* section css start */
+.top-bar{
+    background-color: #2AB71A;
+    padding:0.6rem 0.5rem;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    font-weight: 600;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.top-info {
+    display: flex;
+    align-items: center;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f4f6;
+    padding: 5rem 20px;
+}
+
+.hero-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    width: 75%;
+    margin: 0px auto;
+  }
+  
+  .hero-img-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-img-wrapper img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+  
+  .hero-details {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .hero-details h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1f2937;
+  }
+  
+  .hero-details p {
+    margin-top: 15px;
+    font-size: 1rem;
+    color: #4b5563;
+    line-height: 1.6;
+  }
+
+  .commit-section {
+    padding: 4rem 2rem;
+  }
+  
+  .commit-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: 3rem auto;
+  }
+  
+  .commit-details {
+    width: 50%;
+  }
+  
+  .commit-details h1 {
+    /* font-size: 2rem; */
+    text-align: center;
+  }
+
+  .commit-details h4{
+    margin-bottom: 2rem;
+    margin: 1.5rem 0rem;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .commit-details p {
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: justify;
+  }
+
+  .commit-img-wrapper {
+    flex: 1;
+    text-align: end;
+  }
+  
+  .commit-img-wrapper img {
+    max-width: 90%;
+    height: auto;
+  }
+
+  .commitBtn{
+    margin-top: 0.5rem;
+  }
+
+  @media (max-width: 768px) {
+    .top-bar{
+        font-size: 14px;
+    }
+    .hero-wrapper {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .hero-img-wrapper img {
+        max-width: 80%;
+      }
+  
+    .hero-details {
+      text-align: center;
+    }
+
+    .commit-wrapper {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .commit-details {
+        padding-right: 0;
+        text-align: center;
+        width: 100%;
+      }
+    
+      .commit-img-wrapper {
+        margin-top: 2rem;
+        display: none;
+      }
+
+      .commitBtn{
+        margin-top: 1rem;
+      }
+  }

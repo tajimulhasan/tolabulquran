@@ -5,7 +5,6 @@ import {
   Checks,
   Envelope,
   FacebookLogo,
-  Factory,
   InstagramLogo,
   MapPin,
   Phone,

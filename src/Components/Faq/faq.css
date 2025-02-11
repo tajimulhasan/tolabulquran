@@ -1,0 +1,87 @@
+.faq_container {
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .faq_question {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  
+  .answercont {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+  }
+  
+  .answer {
+    padding: 0 10px 20px;
+    line-height: 1.5rem;
+  }
+  
+  .fqa_headline_container h2 span {
+    font-weight: 700;
+  }
+  
+  .faq_question-text h3 {
+    font-size: 22px;
+  }
+  
+  .icon.active {
+    background: transparent;
+    border: 2px solid #fff;
+  }
+  
+  .icon:hover {
+    cursor: pointer;
+  }
+  
+  .icon-shape {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    transition: 0.5s;
+  }
+  
+  .icon-shape::before,
+  .icon-shape::after {
+    position: absolute;
+    content: '';
+    background: #fff;
+    border-radius: 3px;
+    transition: 0.5s;
+  }
+  
+  .icon-shape::before {
+    width: 20px;
+    height: 4px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .icon-shape::after {
+    width: 4px;
+    height: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Rotation animation when active */
+  .icon.active .icon-shape::before {
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  
+  .icon.active .icon-shape::after {
+    transform: translate(-50%, -50%) rotate(90deg);
+  }
+  

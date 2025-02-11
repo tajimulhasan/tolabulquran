@@ -1,0 +1,33 @@
+.mySwiper{
+    color: white;
+}
+.quote-description, .quote-reference{
+    font-size: 22px;
+    font-weight: 600;    
+    text-align: justify;
+}
+
+.quote-title{
+    margin-top: 3rem;
+}
+
+.quote-description{
+    margin-top: 1rem;
+}
+
+.quote-reference{
+    color: #ffff00;
+}
+
+
+@media (max-width: 768px) {
+    .mySwiper{
+        color: white;
+    }
+    .quote-description, .quote-reference{
+        font-size: 15px;
+        font-weight: 600;    
+        text-align: justify;
+    }
+    
+}

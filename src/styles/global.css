@@ -59,3 +59,10 @@
   overflow: hidden;
   transition: all 200ms ease-out;
 }
+
+@media (max-width: 576px) {
+  .faq-desc.show-description {
+    height: auto;
+    margin-bottom: 15px;
+  }
+}

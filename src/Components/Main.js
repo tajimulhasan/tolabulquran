@@ -110,7 +110,7 @@ const Main = () => {
           <span className="ps-1">tolabulquran@gmail.com</span>
         </div>
         <div className="top-info">
-          <Phone size={20} /> <span className="ps-1">+8801625002500</span>
+          <Phone size={20} /> <span className="ps-1">+880 1334-757374</span>
         </div>
       </div>
       <section className="hero-section">
@@ -196,7 +196,7 @@ const Main = () => {
               আমরা সচরাচর ৩০ মিনিট অথবা ৬০ মিনিট এর ক্লাস অফার করি কিন্তু আপনারা
               চাইলে এইটাও আপনাদের সুবিধামত Customize করে নিতে পারেন ঠিক যেমন
               আপনারা আপনাদের সুবিধামত সময়ে ,সপ্তাহে যেকোনো দিন আমাদের
-              উম্মুলকোরআনে ক্লাস করতে পারেন এবং প্রয়োজনে যেকোন সময় ক্লাস টাইম
+              তলাবুল কোরআনে ক্লাস করতে পারেন এবং প্রয়োজনে যেকোন সময় ক্লাস টাইম
               অথবা ক্লাসের তারিখ শিক্ষক অথবা আমাদের সাথে কথা বলে পরিবর্তন করে
               নিতে পারেন আমরা কিন্তু আপনাদের থেকে আগে কোন টাকা বা হাদিয়া নেব না।
               আপনারা আমাদের ট্রায়াল ক্লাস করে যদি আমাদের সকল কিছু ভালো লাগে
@@ -291,7 +291,7 @@ const Main = () => {
               <div className="contact-card">
                 <Phone size={32} color="#4CAF50" />
                 <h3>WhatsApp Number</h3>
-                <p>+8801625002500</p>
+                <p>+880 1334-757374</p>
               </div>
             </Col>
             <Col xl={4} lg={4} md={6} sm={12} className="mb-4">
@@ -305,7 +305,7 @@ const Main = () => {
               <div className="contact-card">
                 <MapPin size={32} color="#4CAF50" />
                 <h3>Address</h3>
-                <p>Rajshahi, Bangladesh</p>
+                <p>Dhaka, Bangladesh</p>
               </div>
             </Col>
           </Row>

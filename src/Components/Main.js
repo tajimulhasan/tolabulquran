@@ -329,7 +329,7 @@ const Main = () => {
         <div className="footer-content">
           <div className="social-media">
             <a
-              href="https://www.facebook.com"
+              href="https://www.facebook.com/TolabulQuranAcademy"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Facebook"
@@ -337,7 +337,7 @@ const Main = () => {
               <FacebookLogo size={32} weight="fill" />
             </a>
             <a
-              href="https://www.youtube.com"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="YouTube"
@@ -345,7 +345,7 @@ const Main = () => {
               <YoutubeLogo size={32} weight="fill" />
             </a>
             <a
-              href="https://www.instagram.com"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
@@ -353,7 +353,7 @@ const Main = () => {
               <InstagramLogo size={32} weight="fill" />
             </a>
             <a
-              href="https://www.twitter.com"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Twitter"
@@ -364,8 +364,7 @@ const Main = () => {
 
           <div className="footer-text">
             <p>
-              © {currentYear} tolabulQuran - Number-1 Online Quran Learning
-              Platform
+              © {currentYear} tolabulQuran - All rights reserved
             </p>
             <div className="footer-links">
               <a href="/terms" className="footer-link">

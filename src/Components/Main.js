@@ -22,6 +22,18 @@ const Main = () => {
   const headingRef = useRef(null);
 
   useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-WH9T0BEXMZ';
+    script.async = true;
+    document.head.appendChild(script);
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { window.dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-WH9T0BEXMZ');
+  }, []);
+
+  useEffect(() => {
     gsap.fromTo(
       headingRef.current,
       { opacity: 0, x: 400, filter: "blur(10px)" },
